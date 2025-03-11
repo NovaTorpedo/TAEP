@@ -14,8 +14,5 @@ def contact(request):
 def services(request):
     return render(request, 'taep/services.html')
 
-def blog(request):
-    return render(request, 'taep/blog.html')
-
 def testimonial(request):
     return render(request, 'taep/testimonial.html')
